@@ -157,9 +157,9 @@ class NewVersionPlus {
     
     final parameters = {};
     if(id.contains('.')){
-      parameters["bundleId"]: id;
+      parameters["bundleId"] = id;
     }else{
-      parameters["id"]: id;
+      parameters["id"]= id;
     }
     
     if (iOSAppStoreCountry != null) {
